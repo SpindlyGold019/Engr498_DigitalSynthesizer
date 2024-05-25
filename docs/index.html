@@ -1,1 +1,60 @@
-Test?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Synthesizer</title>
+<style>
+  body { font-family: Arial, sans-serif; line-height: 1.6; }
+  .container { width: 80%; margin: auto; overflow: hidden; }
+  header { background: #50b3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: #e8491d 3px solid; }
+  header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+  header ul { padding: 0; list-style: none; }
+  header li { display: inline; padding: 0 20px 0 20px; }
+  header #branding { float: left; }
+  header #branding h1 { margin: 0; }
+  header nav { float: right; margin-top: 10px; }
+  header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+  header a:hover { color: #ffffff; font-weight: bold; }
+  /* .showcase { min-height: 400px; background: url('./bg.jpg') no-repeat 0 -400px; text-align: center; color: #ffffff; } */
+  .showcase h1 { margin-top: 100px; font-size: 55px; margin-bottom: 10px; }
+  .showcase p { font-size: 20px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Digital Synthesizer</h1>
+      </div>
+      <!-- <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+        </ul>
+      </nav> -->
+    </div>
+  </header>
+
+  <section class="container">
+    <h2>Project Video</h2>
+    <iframe src="https://drive.google.com/file/d/1R68xTclVambXlEu7IBZdnqah8u0xGRsw/preview" width="640" height="480" allow="autoplay"></iframe>
+
+    <h2>Project Description</h2>
+    <!-- <p>The initial idea of our project was to generate waveforms using the DAC. We could use the DAC to make a basic function generator.
+        But this is also basically a synthesizer. So we thought to take it in that direction because that would be more fun.
+        Normally on a synth, a potentiometer would control the frequency. But after using the ultrasonic sensor all semester we thought
+        we could make things more interesting by integrating it into the synthesizer.
+        This could be interpreted as either a synth or an instrument. So the goal of our project become to make a synth that can be controlled by your hand.</p> -->
+    <p>Our project began with the idea to create waveforms through a Digital-to-Analog Converter (DAC), envisioning a fundamental function generator.
+        However, we quickly recognized the inherent similarities to a synthesizer and decided to pivot our focus, embracing the more engaging challenge of synthesizer design.
+        Traditionally, synthesizers employ potentiometers for frequency modulation. Yet, our accumulated experience with ultrasonic sensors throughout the semester inspired us to innovate.
+        We integrated the ultrasonic sensor into our synthesizer, transforming it into an interactive instrument that responds to hand movements.
+        Ultimately, our project evolved into crafting a unique synthesizer—an instrument that not only generates sound but also invites the user to shape it through intuitive,
+        tactile interaction.</p>
+  </section>
+
+  <!-- <footer>
+    <p>Student Project Showcase © 2024</p>
+  </footer> -->
+</body>
+</html>
